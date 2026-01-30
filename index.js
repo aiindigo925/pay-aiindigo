@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 3000;
 
 // Config
 const PRICE_CENTS = 1; // $0.01 per query
-const WALLET_ADDRESS = process.env.WALLET_ADDRESS || '0x1234567890abcdef1234567890abcdef12345678';
+const WALLET_ADDRESS = process.env.WALLET_ADDRESS || '0xA6Bba2453673196ae22fb249C7eA9FA118a87150';
 const FACILITATOR_URL = process.env.FACILITATOR_URL || 'https://pay.openfacilitator.io';
 
 app.use(cors());
