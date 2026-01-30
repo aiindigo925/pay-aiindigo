@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "https://aiindigo.com/pay",
+      "permanent": true
+    }
+  ]
+}
