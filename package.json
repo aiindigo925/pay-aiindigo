@@ -1,0 +1,22 @@
+{
+  "name": "pay-aiindigo",
+  "version": "1.0.0",
+  "description": "x402 payment API for AI Indigo tools directory",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": ["x402", "ai-tools", "api", "payments"],
+  "author": "AI Indigo",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
